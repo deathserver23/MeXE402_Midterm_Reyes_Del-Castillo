@@ -19,17 +19,10 @@ The Adult Census Income dataset, sourced from the UCI Machine Learning Repositor
 Objective for linear Regression Project Objectives: (What you aim to achieve with your analyses.)
 
 Objectives for Logistic Regression
-1. Examine Gender Distribution: Analyze the distribution of individuals by sex within different demographic groups (e.g., age, education, occupation).
-2. Assess Employment Patterns: Investigate how employment status (e.g., employed, unemployed, never worked) varies by sex to identify any notable trends.
-3. Educational Attainment: Explore the relationship between sex and educational levels, analyzing how educational attainment differs across genders.
-4. Occupation Analysis: Examine the types of occupations held by different sexes to identify gender-based occupational segregation and its implications.
-5. Demographic Correlations: Analyze how sex correlates with other demographic factors, such as race or marital status, to uncover patterns in the data.
-6. Visualize Findings: Create visualizations predicted probabilities to clearly communicate model performance and the effects of predictors.
+To model the probability of a binary outcome based on one or more independent variables. The aim is to estimate the likelihood that the dependent variable equals one of the categories based on the values of the independent variables, facilitating classification and risk assessment.
 
 # Documentation 
-
 ## Methodology
-
 ## Data Preproccessing 
 
 ![Screenshot 2024-10-24 110235](https://github.com/user-attachments/assets/70d9122b-993b-4fff-99cb-9dd166bd2cb5)
