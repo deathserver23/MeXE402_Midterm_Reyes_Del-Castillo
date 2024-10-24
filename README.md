@@ -13,7 +13,8 @@ Logistic regression is a statistical method used for binary classification tasks
 
 ## Dataset Description
 
-Dataset Description in Linear Regression (Dataset Description: Details about the datasets used)
+Dataset Description in Linear Regression 
+
 The data set has been selected from Kaggle and it contains real historical weather data with an daily summary for Szeged, Hungary , between 2006 and 2016.This dataset contains information about weather data, including temperature, humidity, wind speed, and precipitation. It can be used to predict weather patterns using linear regression.
 
 Dataset Description in Logistic Regression
