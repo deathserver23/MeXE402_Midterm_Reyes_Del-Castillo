@@ -22,8 +22,8 @@ Dataset Description in Logistic Regression
 The Adult Census Income dataset, sourced from the UCI Machine Learning Repository, contains demographic information about individuals from the 1994 U.S. Census. It includes features such as age, education, occupation, marital status, race, sex, and hours worked per week, alongside a target variable indicating whether an individual's income exceeds $50,000 per year. This dataset is commonly used for classification tasks in machine learning, particularly to predict income levels based on personal attributes but instead of income the sex is the categorial we used. With a mix of categorical and numerical features, it serves as a rich resource for exploring socio-economic patterns and developing predictive models.
 
 # 🔭Project Objectives
-Objective for linear Regression
-  - To models the relationships between at least one explanatory variable and an outcome variable.
+Objective for Linear Regression
+  - To models the relationships between independent and dependent variable.
   - To choose the suitable the independent variable and it's dependent variable.
   - To test the accuracy of the model in prediction of values.
 
