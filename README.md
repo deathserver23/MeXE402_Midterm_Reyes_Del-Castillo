@@ -26,7 +26,17 @@ To model the probability of a binary outcome based on one or more independent va
 ## Data Preproccessing 
 
 ![Screenshot 2024-10-24 110235](https://github.com/user-attachments/assets/70d9122b-993b-4fff-99cb-9dd166bd2cb5)
-
+![Screenshot 2024-10-24 121734](https://github.com/user-attachments/assets/36609749-c734-4397-9b13-b43012ce18b3)
+![Screenshot 2024-10-24 121753](https://github.com/user-attachments/assets/09786620-fdc7-457c-8217-594d41019add)
+![Screenshot 2024-10-24 121810](https://github.com/user-attachments/assets/14cfc02a-a926-4411-a80f-be09cffbc6f8)
+![Screenshot 2024-10-24 121824](https://github.com/user-attachments/assets/38d1ffe2-c3ff-47b0-854a-3590107b4281)
+![Screenshot 2024-10-24 121834](https://github.com/user-attachments/assets/bb1c0fcb-2e6f-4dd9-880b-c1899e06fac9)
+![Screenshot 2024-10-24 121907](https://github.com/user-attachments/assets/60489b51-4671-4cce-b5cb-ef518b3196e9)
+![Screenshot 2024-10-24 121928](https://github.com/user-attachments/assets/bb4ac8cd-dfcb-4641-b536-68d332ad5220)
+![Screenshot 2024-10-24 121937](https://github.com/user-attachments/assets/bc59d790-c513-44da-9952-ce648b5ea93c)
+![Screenshot 2024-10-24 121950](https://github.com/user-attachments/assets/3cb73334-3d16-4851-8662-d9958c8ffb16)
+![Screenshot 2024-10-24 121959](https://github.com/user-attachments/assets/1c692c79-5ff9-4d00-9ff6-76338e95111b)
+![Screenshot 2024-10-24 122006](https://github.com/user-attachments/assets/20b8c171-b4a5-4916-a37b-06abc61189a5)
 In the data preprocessing stage of the logistic regression analysis, categorical variables were transformed into numerical format to enable model fitting. Specifically, we utilized one-hot encoding for nominal variables, creating binary indicator variables for each category. This transformation allowed us to incorporate categorical information into the model while ensuring that the logistic regression algorithm could interpret the data appropriately. After these conversions, we verified that all variables were in the correct numerical format.
 
 ## Model Implementation
