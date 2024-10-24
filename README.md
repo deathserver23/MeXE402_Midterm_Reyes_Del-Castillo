@@ -35,13 +35,7 @@ To model the probability of a binary outcome based on one or more independent va
 ## Data Preproccessing
 
 ![Screenshot (648)](https://github.com/user-attachments/assets/898b51aa-5a59-455c-889a-9f8cd1eeb6ee)
-![Screenshot (649)](https://github.com/user-attachments/assets/ae083cd0-b1d4-4319-99b0-1834daf77be6)
-![Screenshot (650)](https://github.com/user-attachments/assets/4012ffb3-6311-4f2e-963d-c977fce40048)
-![Screenshot (651)](https://github.com/user-attachments/assets/c873b63a-21b1-4167-a4d8-1185d112465a)
-![Screenshot (652)](https://github.com/user-attachments/assets/900dd410-ac5a-4282-ad9e-35b1f0593d6d)
-![Screenshot (653)](https://github.com/user-attachments/assets/6ece1638-7cec-44b2-89f5-7fb4db670d8b)
-![Screenshot (654)](https://github.com/user-attachments/assets/645812b6-bf2c-414f-913c-a5106f456a71)
-![Screenshot (655)](https://github.com/user-attachments/assets/90c50b76-365a-4da8-bfb9-9e5dd69bc0ce)
+
 There are 9 dependent variables in the dataset
  - Summary
  - Precipitation Type
@@ -52,8 +46,18 @@ There are 9 dependent variables in the dataset
  - Visibility
  - Pressure
  - Daily Summary
+
 And there's 1 independent variable : Temperature
 We change the summary and daily summary into numerical values as a part of data cleaning.
+
+![Screenshot (649)](https://github.com/user-attachments/assets/ae083cd0-b1d4-4319-99b0-1834daf77be6)
+![Screenshot (650)](https://github.com/user-attachments/assets/4012ffb3-6311-4f2e-963d-c977fce40048)
+![Screenshot (651)](https://github.com/user-attachments/assets/c873b63a-21b1-4167-a4d8-1185d112465a)
+![Screenshot (652)](https://github.com/user-attachments/assets/900dd410-ac5a-4282-ad9e-35b1f0593d6d)
+![Screenshot (653)](https://github.com/user-attachments/assets/6ece1638-7cec-44b2-89f5-7fb4db670d8b)
+![Screenshot (654)](https://github.com/user-attachments/assets/645812b6-bf2c-414f-913c-a5106f456a71)
+![Screenshot (655)](https://github.com/user-attachments/assets/90c50b76-365a-4da8-bfb9-9e5dd69bc0ce)
+
 
 ## Model Implementation
 
