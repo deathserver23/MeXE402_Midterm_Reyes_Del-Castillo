@@ -29,6 +29,13 @@ To model the probability of a binary outcome based on one or more independent va
 
 # Documentation 
 ## Methodology
+## Data Preproccessing
+
+![Screenshot (648)](https://github.com/user-attachments/assets/898b51aa-5a59-455c-889a-9f8cd1eeb6ee)
+![Screenshot (649)](https://github.com/user-attachments/assets/ae083cd0-b1d4-4319-99b0-1834daf77be6)
+![Screenshot (650)](https://github.com/user-attachments/assets/4012ffb3-6311-4f2e-963d-c977fce40048)
+![Screenshot (651)](https://github.com/user-attachments/assets/c873b63a-21b1-4167-a4d8-1185d112465a)
+
 ## Data Preproccessing 
 
 ![Screenshot 2024-10-24 110235](https://github.com/user-attachments/assets/70d9122b-993b-4fff-99cb-9dd166bd2cb5)
