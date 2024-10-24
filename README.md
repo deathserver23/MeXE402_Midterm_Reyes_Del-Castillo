@@ -3,6 +3,10 @@
 ## Introduction 
 Linear Regression (Introduction: Overview of Linear and Logistic Regression.)
 
+## Linear Regression
+
+Linear regression analysis is used to predict the value of a variable based on the value of another variable. The variable you want to predict is called the dependent variable. The variable you are using to predict the other variable's value is called the independent variable. When a linear model has one independent variable, the procedure is known as simple linear regression. When there are more than one independent variable, statisticians refer to it as multiple regression. These models assume that the average value of the dependent variable depends on a linear function of the independent variables.
+
 ## Logistic Regression 
 
 Logistic regression is a statistical method used for binary classification tasks, where the goal is to predict the probability of an outcome that can take one of two possible values (e.g., success/failure, yes/no). The logistic regression model predicts the log-odds of the probability of the positive class (typically labeled as 1).
@@ -10,6 +14,7 @@ Logistic regression is a statistical method used for binary classification tasks
 ## Dataset Description
 
 Dataset Description in Linear Regression (Dataset Description: Details about the datasets used)
+The data set has been selected from Kaggle and it contains real historical weather data with an daily summary for Szeged, Hungary , between 2006 and 2016.This dataset contains information about weather data, including temperature, humidity, wind speed, and precipitation. It can be used to predict weather patterns using linear regression.
 
 Dataset Description in Logistic Regression
 
