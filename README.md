@@ -1,7 +1,7 @@
 ## Midterm Examination
 
 ## Introduction 
-Linear Regression (Introduction: Overview of Linear and Logistic Regression.)
+Overview of Linear and Logistic Regression.)
 
 ## Linear Regression
 
