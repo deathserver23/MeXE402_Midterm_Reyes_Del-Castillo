@@ -1,4 +1,4 @@
-## Midterm Examination
+## 💻Midterm Examination
 
 ## 🎯Introduction 
 Overview of Linear and Logistic Regression
@@ -11,7 +11,7 @@ Linear regression analysis is used to predict the value of a variable based on t
 
 Logistic regression is a statistical method used for binary classification tasks, where the goal is to predict the probability of an outcome that can take one of two possible values (e.g., success/failure, yes/no). The logistic regression model predicts the log-odds of the probability of the positive class (typically labeled as 1).
 
-## Dataset Description
+## 📚Dataset Description
 
 Dataset Description in Linear Regression 
 
@@ -21,13 +21,13 @@ Dataset Description in Logistic Regression
 
 The Adult Census Income dataset, sourced from the UCI Machine Learning Repository, contains demographic information about individuals from the 1994 U.S. Census. It includes features such as age, education, occupation, marital status, race, sex, and hours worked per week, alongside a target variable indicating whether an individual's income exceeds $50,000 per year. This dataset is commonly used for classification tasks in machine learning, particularly to predict income levels based on personal attributes but instead of income the sex is the categorial we used. With a mix of categorical and numerical features, it serves as a rich resource for exploring socio-economic patterns and developing predictive models.
 
-## Project Objectives
+## 🔭Project Objectives
 Objective for linear Regression Project Objectives: (What you aim to achieve with your analyses.)
 
 Objectives for Logistic Regression
 To model the probability of a binary outcome based on one or more independent variables. The aim is to estimate the likelihood that the dependent variable equals one of the categories based on the values of the independent variables, facilitating classification and risk assessment.
 
-# Documentation 
+# 📸Documentation 
 ## Methodology
 ## Data Preproccessing
 
