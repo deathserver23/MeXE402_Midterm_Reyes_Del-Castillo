@@ -23,9 +23,9 @@ The Adult Census Income dataset, sourced from the UCI Machine Learning Repositor
 
 # 🔭Project Objectives
 Objective for linear Regression
-  •To models the relationships between at least one explanatory variable and an outcome variable.
-  •To choose the suitable the independent variable and it's dependent variable.
-  •To test the accuracy of the model in prediction of values.
+  - To models the relationships between at least one explanatory variable and an outcome variable.
+  - To choose the suitable the independent variable and it's dependent variable.
+  - To test the accuracy of the model in prediction of values.
 
 Objectives for Logistic Regression
 To model the probability of a binary outcome based on one or more independent variables. The aim is to estimate the likelihood that the dependent variable equals one of the categories based on the values of the independent variables, facilitating classification and risk assessment.
