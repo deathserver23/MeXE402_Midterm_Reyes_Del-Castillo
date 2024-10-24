@@ -48,6 +48,7 @@ There are 9 dependent variables in the dataset
  - Daily Summary
 
 And there's 1 independent variable : Temperature
+
 We change the summary and daily summary into numerical values as a part of data cleaning.
 
 ![Screenshot (649)](https://github.com/user-attachments/assets/ae083cd0-b1d4-4319-99b0-1834daf77be6)
