@@ -40,6 +40,10 @@ To model the probability of a binary outcome based on one or more independent va
 ![Screenshot (654)](https://github.com/user-attachments/assets/645812b6-bf2c-414f-913c-a5106f456a71)
 ![Screenshot (655)](https://github.com/user-attachments/assets/90c50b76-365a-4da8-bfb9-9e5dd69bc0ce)
 
+## Model Implementation
+
+![Screenshot (660)](https://github.com/user-attachments/assets/698de597-26ae-4f04-81ec-40835ebd068e)
+
 ## Data Preproccessing 
 
 ![Screenshot 2024-10-24 110235](https://github.com/user-attachments/assets/70d9122b-993b-4fff-99cb-9dd166bd2cb5)
