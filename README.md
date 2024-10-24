@@ -46,6 +46,9 @@ To model the probability of a binary outcome based on one or more independent va
 
 ## Evaluation Metrics
 
+![Screenshot (659)](https://github.com/user-attachments/assets/8a4dfcf9-f7b4-4194-8e0a-863aeab02917)
+![Screenshot (661)](https://github.com/user-attachments/assets/0783c71b-8308-4c03-978c-eecd474bb890)
+
 ## Interpretation
 
 ## Data Preproccessing 
