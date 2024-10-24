@@ -42,6 +42,18 @@ To model the probability of a binary outcome based on one or more independent va
 ![Screenshot (653)](https://github.com/user-attachments/assets/6ece1638-7cec-44b2-89f5-7fb4db670d8b)
 ![Screenshot (654)](https://github.com/user-attachments/assets/645812b6-bf2c-414f-913c-a5106f456a71)
 ![Screenshot (655)](https://github.com/user-attachments/assets/90c50b76-365a-4da8-bfb9-9e5dd69bc0ce)
+There are 9 dependent variables in the dataset
+ - Summary
+ - Precipitation Type
+ - Apparent Temperature
+ - Humidity
+ - Wind Speed
+ - Wind Bearing
+ - Visibility
+ - Pressure
+ - Daily Summary
+And there's 1 independent variable : Temperature
+We change the summary and daily summary into numerical values as a part of data cleaning.
 
 ## Model Implementation
 
