@@ -77,7 +77,6 @@ We change the summary into numerical values as a part of data cleaning.
 
 Data Cleaning
 Converting letters into numerical value 
-
                       | Letter        | Numerical Value |
                       |---------------|-----------------|
                       | Male          | 0               |
