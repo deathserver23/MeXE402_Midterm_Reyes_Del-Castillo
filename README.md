@@ -133,4 +133,6 @@ Adult Cencus Income, Kaggle. https://www.kaggle.com/datasets/uciml/adult-census-
 
 IBM, What is Logistic Regression https://www.ibm.com/topics/logistic-regression
 
-animesh-agarwal 
+animesh-agarwal (2018) https://github.com/animesh-agarwal/Machine-Learning-Datasets/blob/master/census-data/census%20income%20logistic%20regression.ipynb, https://towardsdatascience.com/logistic-regression-classifier-on-census-income-data-e1dbef0b5738 
+
+
