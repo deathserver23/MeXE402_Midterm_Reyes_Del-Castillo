@@ -106,18 +106,31 @@ In the data preprocessing stage of the logistic regression analysis, categorical
 ## Model Implementation
 ![Screenshot 2024-10-31 003645](https://github.com/user-attachments/assets/5fd5522d-74ff-4c15-bc9c-8772c9ac3352)
 
+For logistic regression implementation - from sklearn.linear_model import LogisticRegression  
+
 the logistic regression analysis, we imported essential libraries to facilitate data manipulation, model training, and evaluation. The pandas library was used for data handling and preprocessing, allowing us to easily read and manipulate our dataset. We employed train_test_split from sklearn.model_selection to divide the dataset into training and testing sets, ensuring that our model could be evaluated on unseen data to assess its performance. The LogisticRegression class from sklearn.linear_model was utilized to fit our logistic regression model, providing a robust implementation of the algorithm. Finally, accuracy_score and classification_report from sklearn.metrics were included to evaluate the model's performance, offering insights into accuracy, precision, recall, and F1-score, which are crucial for understanding the model's predictive capabilities.
 ## Evaluation Metrics
+![Screenshot 2024-10-31 004805](https://github.com/user-attachments/assets/ce80e0b5-b4ef-4923-a536-3f8b3748a8fd)
 
+For evaluating the model performance - from sklearn.metrics import confusion_matrix
+
+For calculating the accuracy of the model - sklearn.metrics import accuracy_score
 
 The calculated accuracy of 0.7326 in the logistic regression model indicates that approximately 73.26% of the predictions made by the model were correct. This metric provides a straightforward measure of how well the model performed on the test dataset, reflecting the proportion of true positive and true negative predictions relative to the total number of observations. While a higher accuracy suggests better model performance and close to 100%.
 
 ## Visualization
-![Screenshot 2024-10-24 111738](https://github.com/user-attachments/assets/1bd25147-57aa-4389-b841-d29b6f90025e)
+![Screenshot 2024-10-31 004503](https://github.com/user-attachments/assets/c63445ec-5493-49ca-ac89-5152186e0764)
+
 
 In logistic regression, plotting a confusion matrix provides a visual representation of the model's classification performance by summarizing the counts of true positive, true negative, false positive, and false negative predictions. This matrix allows us to quickly assess how well the model distinguishes between the two classes. Each cell in the matrix indicates the number of instances predicted by the model, with the diagonal representing correct classifications (true positives and true negatives) and the off-diagonal cells representing misclassifications (false positives and false negatives).
 
 ## Interpretation
 Logistic regression is a powerful model for classification tasks, as it estimates the probability of a binary outcome based on input features. The importance of features in logistic regression is critical, as each feature contributes to the model’s decision-making process by adjusting the weights associated with it. These weights, also known as coefficients, directly influence the prediction by determining the direction and strength of the relationship between the feature and the target variable. A well-tuned logistic regression model not only classifies observations effectively but also offers insight into which features are most influential, providing interpretability to decision-making.
 
+## References
 
+Adult Cencus Income, Kaggle. https://www.kaggle.com/datasets/uciml/adult-census-income
+
+IBM, What is Logistic Regression https://www.ibm.com/topics/logistic-regression
+
+animesh-agarwal 
