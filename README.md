@@ -28,7 +28,10 @@ Objective for Linear Regression
   - To test the accuracy of the model in prediction of values.
 
 Objectives for Logistic Regression
-To model the probability of a binary outcome based on one or more independent variables. The aim is to estimate the likelihood that the dependent variable equals one of the categories based on the values of the independent variables, facilitating classification and risk assessment.
+  - Performing Data Cleaning to ensure the dataset consistency, handling misssing values and remove duplicates
+  - To model the probability of a binary outcome based on one or more independent variables
+  - Evaluating the program to classify the accuracy of categorical variable 
+  
 
 # 📸Documentation 
 ## Methodology
