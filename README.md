@@ -73,39 +73,42 @@ We change the summary into numerical values as a part of data cleaning.
 
 ## Interpretation
 
+
 ## Data Preproccessing 
-
-Data Cleaning
+  
 Converting letters into numerical value 
-                      | Letter        | Numerical Value |
-                      |---------------|-----------------|
-                      | Male          | 0               |
-                      | Female        | 1               |
+| Letter        | Numerical Value |
+|---------------|-----------------|
+| Male          | 0               |
+| Female        | 1               |
 
-</div>
-
-<div align="center">
   
 ![Screenshot 2024-10-24 121734](https://github.com/user-attachments/assets/36609749-c734-4397-9b13-b43012ce18b3)
-![Screenshot 2024-10-24 121753](https://github.com/user-attachments/assets/09786620-fdc7-457c-8217-594d41019add)
-![Screenshot 2024-10-24 121810](https://github.com/user-attachments/assets/14cfc02a-a926-4411-a80f-be09cffbc6f8)
-![Screenshot 2024-10-24 121824](https://github.com/user-attachments/assets/38d1ffe2-c3ff-47b0-854a-3590107b4281)
-![Screenshot 2024-10-24 121834](https://github.com/user-attachments/assets/bb1c0fcb-2e6f-4dd9-880b-c1899e06fac9)
-![Screenshot 2024-10-24 121907](https://github.com/user-attachments/assets/60489b51-4671-4cce-b5cb-ef518b3196e9)
-![Screenshot 2024-10-24 121928](https://github.com/user-attachments/assets/bb4ac8cd-dfcb-4641-b536-68d332ad5220)
-![Screenshot 2024-10-24 121937](https://github.com/user-attachments/assets/bc59d790-c513-44da-9952-ce648b5ea93c)
-![Screenshot 2024-10-24 121950](https://github.com/user-attachments/assets/3cb73334-3d16-4851-8662-d9958c8ffb16)
-![Screenshot 2024-10-24 121959](https://github.com/user-attachments/assets/1c692c79-5ff9-4d00-9ff6-76338e95111b)
-![Screenshot 2024-10-24 122006](https://github.com/user-attachments/assets/20b8c171-b4a5-4916-a37b-06abc61189a5)
+import pandas as pd - for Data Manipulation 
+
+The file name depends on your assigned file name - adult.csv
+
+![Screenshot 2024-10-31 002708](https://github.com/user-attachments/assets/0d268bb1-0b77-4a5a-87e2-0be397cc41b1)
+This is the preview of your Dataset
+
+![Screenshot 2024-10-31 003031](https://github.com/user-attachments/assets/0a9ef811-48f6-440a-ac4a-6446bdb2e892)
+![Screenshot 2024-10-31 003051](https://github.com/user-attachments/assets/feb65710-0b89-435c-8a0f-b40c7362a569)
+![Screenshot 2024-10-31 003041](https://github.com/user-attachments/assets/124bf023-2397-4822-ad5b-fbf340f20d55)
+
+For splitting the dataset into train and test sets -from sklearn.model_selection import train_test_split 
+
+![Screenshot 2024-10-31 003437](https://github.com/user-attachments/assets/1fae5f39-a8b3-45a5-a0c6-2a7fd59e1e6e)
+
+For standardizing features - from sklearn.preprocessing import StandardScaler
+
 In the data preprocessing stage of the logistic regression analysis, categorical variables were transformed into numerical format to enable model fitting. Specifically, we utilized one-hot encoding for nominal variables, creating binary indicator variables for each category. This transformation allowed us to incorporate categorical information into the model while ensuring that the logistic regression algorithm could interpret the data appropriately. After these conversions, we verified that all variables were in the correct numerical format.
 
 ## Model Implementation
-![Screenshot 2024-10-24 110022](https://github.com/user-attachments/assets/129c8545-a07d-401d-9984-e3975a4a9cde)
+![Screenshot 2024-10-31 003645](https://github.com/user-attachments/assets/5fd5522d-74ff-4c15-bc9c-8772c9ac3352)
 
 the logistic regression analysis, we imported essential libraries to facilitate data manipulation, model training, and evaluation. The pandas library was used for data handling and preprocessing, allowing us to easily read and manipulate our dataset. We employed train_test_split from sklearn.model_selection to divide the dataset into training and testing sets, ensuring that our model could be evaluated on unseen data to assess its performance. The LogisticRegression class from sklearn.linear_model was utilized to fit our logistic regression model, providing a robust implementation of the algorithm. Finally, accuracy_score and classification_report from sklearn.metrics were included to evaluate the model's performance, offering insights into accuracy, precision, recall, and F1-score, which are crucial for understanding the model's predictive capabilities.
 ## Evaluation Metrics
 
-![Screenshot 2024-10-24 105901](https://github.com/user-attachments/assets/e0065624-d538-4b6b-a1ec-16c6257ac427)
 
 The calculated accuracy of 0.7326 in the logistic regression model indicates that approximately 73.26% of the predictions made by the model were correct. This metric provides a straightforward measure of how well the model performed on the test dataset, reflecting the proportion of true positive and true negative predictions relative to the total number of observations. While a higher accuracy suggests better model performance and close to 100%.
 
