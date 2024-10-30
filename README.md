@@ -75,7 +75,10 @@ We change the summary into numerical values as a part of data cleaning.
 
 ## Data Preproccessing 
 
-![Screenshot 2024-10-24 110235](https://github.com/user-attachments/assets/70d9122b-993b-4fff-99cb-9dd166bd2cb5)
+Data Cleaning
+Converting letters into numerical value 
+                       Male   - 0
+                       Female - 1
 ![Screenshot 2024-10-24 121734](https://github.com/user-attachments/assets/36609749-c734-4397-9b13-b43012ce18b3)
 ![Screenshot 2024-10-24 121753](https://github.com/user-attachments/assets/09786620-fdc7-457c-8217-594d41019add)
 ![Screenshot 2024-10-24 121810](https://github.com/user-attachments/assets/14cfc02a-a926-4411-a80f-be09cffbc6f8)
