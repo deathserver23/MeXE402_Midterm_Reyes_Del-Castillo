@@ -40,7 +40,7 @@ Objectives for Logistic Regression
 
 ![Screenshot (664)](https://github.com/user-attachments/assets/894cda31-eee7-4971-908d-96cf683f7d8e)
 
-There are 9 dependent variables in the dataset
+There are 9 dependent variables in the dataset:
  - Summary
  - Precipitation Type
  - Apparent Temperature
@@ -93,6 +93,12 @@ We change the summary and precipitation types into numerical values as a part of
 | Rain                                   | 37               |
 
 - there's 27 categories
+
+![Screenshot (665)](https://github.com/user-attachments/assets/7061635b-0168-4841-a507-c38107a7c6c4)
+
+import pandas as pd - for data analysis and manipulation
+
+dataset = pd.read_csv('the name of the file')
 
 ## Model Implementation
 
