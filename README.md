@@ -61,8 +61,8 @@ We change the summary and precipitation types into numerical values as a part of
 
 - there's 2 categories : snow and rain
 
-| Precip Type                            | Numerical Value |
-|----------------------------------------|-----------------|
+| Precip Type                            | Numerical Value  |
+|----------------------------------------|------------------|
 | Partly Cloudy                          | 10               |
 | Mostly Cloudy                          | 11               |
 | Overcast                               | 12               |
@@ -104,15 +104,22 @@ We change the summary and precipitation types into numerical values as a part of
 
 ![Screenshot (669)](https://github.com/user-attachments/assets/77c137d8-1186-43d2-864a-8433864367f6)
 
+- The train_test_split function from scikit-learn's model_selection module is a tool for dividing datasets into training and testing subsets.In the dataset,x and y are split into training and testing sets. The test_size parameter specifies that 20% of the data should be used for the test set and the 80% is for training set, while the random_state parameter ensures reproducibility of the results.
+
 ## Model Implementation
 
 ![Screenshot (670)](https://github.com/user-attachments/assets/2e8508a8-ba99-4713-a2f6-4288706667ab)
+
+- The code initializes a simple linear regression model using the scikit-learn library in Python. Linear regression is a technique in machine learning where we create a relationship between a set of inputs (features) and a continuous output, predicting outcomes based on those inputs. The first line, from sklearn.linear_model import LinearRegression, imports the class that represents this model. The second line, model = LinearRegression(), creates an instance of the model, allowing us to train it with data. Once initialized, we can use model.fit() to train the model on data and model.predict() to make predictions on new, unseen data. This linear regression model can help analyze trends, such as predicting sales, stock prices, or temperatures based on past data.
 
 ## Evaluation Metrics
 
 ![Screenshot (671)](https://github.com/user-attachments/assets/e45b324f-9526-44f8-9a7e-653986d9cd5e)
 
 ![Screenshot (672)](https://github.com/user-attachments/assets/fac709a3-51e1-4c73-b1af-671550916156)
+
+- The code calculates the R-squared (R²) score, which shows how well the model's predictions match the actual results. After importing r2_score from sklearn.metrics, the line r2 = r2_score(y_test, y_pred) compares the real values (y_test) with the model’s predicted values (y_pred). The R² score ranges from 0 to 1, where a score closer to 1 means the model is doing a good job predicting the results, and a score closer to 0 means the predictions are less accurate.In our model, the accuracy score is 0.99,which is implies that the model is great.
+- Adjusted R-squared (Adjusted R²) is an alternative for R-squared score that also considers how many features are in the model. R-squared (R²) measures how well the model's predictions match the real data, but it can go up just by adding more features, even if they don’t actually help. Adjusted R² fixes this by only increasing if new features improve the model's accuracy. This makes it a better way to compare models that use different numbers of features.
 
 ## Interpretation
 
