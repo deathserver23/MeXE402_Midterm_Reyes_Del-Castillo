@@ -23,6 +23,7 @@ The Adult Census Income dataset, sourced from the UCI Machine Learning Repositor
 
 # 🔭Project Objectives
 Objective for Linear Regression
+  - Performing Data Cleaning to ensure the dataset consistency, handling misssing values and delete unnecessary variables
   - To models the relationships between independent and dependent variable.
   - To choose the suitable the independent variable and it's dependent variable.
   - To test the accuracy of the model in prediction of values.
