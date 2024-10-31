@@ -178,11 +178,15 @@ In logistic regression, plotting a confusion matrix provides a visual representa
 Logistic regression is a powerful model for classification tasks, as it estimates the probability of a binary outcome based on input features. The importance of features in logistic regression is critical, as each feature contributes to the model’s decision-making process by adjusting the weights associated with it. These weights, also known as coefficients, directly influence the prediction by determining the direction and strength of the relationship between the feature and the target variable. A well-tuned logistic regression model not only classifies observations effectively but also offers insight into which features are most influential, providing interpretability to decision-making.
 
 ## References
+Weather Dataset, Kaggle. https://www.kaggle.com/datasets/muthuj7/weather-dataset
+
+train_test_split. (n.d.). Scikit-learn. https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
 
 Adult Cencus Income, Kaggle. https://www.kaggle.com/datasets/uciml/adult-census-income
 
 IBM, What is Logistic Regression https://www.ibm.com/topics/logistic-regression
 
 animesh-agarwal (2018) https://github.com/animesh-agarwal/Machine-Learning-Datasets/blob/master/census-data/census%20income%20logistic%20regression.ipynb, https://towardsdatascience.com/logistic-regression-classifier-on-census-income-data-e1dbef0b5738 
+
 
 
