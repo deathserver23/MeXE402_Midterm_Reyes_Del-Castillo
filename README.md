@@ -96,16 +96,28 @@ We change the summary and precipitation types into numerical values as a part of
 
 ![Screenshot (665)](https://github.com/user-attachments/assets/7061635b-0168-4841-a507-c38107a7c6c4)
 
-import pandas as pd - for data analysis and manipulation
-
-dataset = pd.read_csv('the name of the file')
+- import pandas as pd - for data analysis and manipulation
+- dataset = pd.read_csv('the name of the file')
+- dataset.info - to get the summary of the dataset, if there's a missing values or null
 
 ## Model Implementation
+
+![Screenshot (668)](https://github.com/user-attachments/assets/ca25f2d0-3657-42a6-babb-631d32c523cc)
+
+![Screenshot (669)](https://github.com/user-attachments/assets/77c137d8-1186-43d2-864a-8433864367f6)
+
+![Screenshot (670)](https://github.com/user-attachments/assets/2e8508a8-ba99-4713-a2f6-4288706667ab)
+
+![Screenshot (671)](https://github.com/user-attachments/assets/e45b324f-9526-44f8-9a7e-653986d9cd5e)
+
+![Screenshot (672)](https://github.com/user-attachments/assets/fac709a3-51e1-4c73-b1af-671550916156)
 
 
 ## Evaluation Metrics
 
+![Screenshot (671)](https://github.com/user-attachments/assets/e45b324f-9526-44f8-9a7e-653986d9cd5e)
 
+![Screenshot (672)](https://github.com/user-attachments/assets/fac709a3-51e1-4c73-b1af-671550916156)
 
 ## Interpretation
 
