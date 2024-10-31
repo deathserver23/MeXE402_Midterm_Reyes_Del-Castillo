@@ -51,25 +51,19 @@ There are 9 dependent variables in the dataset
 
 And there's 1 independent variable : Temperature
 
-We change the summary into numerical values as a part of data cleaning.
+We change the summary and precipitation types into numerical values as a part of data cleaning.
 
-![Screenshot (649)](https://github.com/user-attachments/assets/ae083cd0-b1d4-4319-99b0-1834daf77be6)
-![Screenshot (650)](https://github.com/user-attachments/assets/4012ffb3-6311-4f2e-963d-c977fce40048)
-![Screenshot (651)](https://github.com/user-attachments/assets/c873b63a-21b1-4167-a4d8-1185d112465a)
-![Screenshot (652)](https://github.com/user-attachments/assets/900dd410-ac5a-4282-ad9e-35b1f0593d6d)
-![Screenshot (653)](https://github.com/user-attachments/assets/6ece1638-7cec-44b2-89f5-7fb4db670d8b)
-![Screenshot (654)](https://github.com/user-attachments/assets/645812b6-bf2c-414f-913c-a5106f456a71)
-![Screenshot (655)](https://github.com/user-attachments/assets/90c50b76-365a-4da8-bfb9-9e5dd69bc0ce)
-
+| Precip Type   | Numerical Value |
+|---------------|-----------------|
+| Rain          | 1               |
+| Snow          | 2               |
 
 ## Model Implementation
 
-![Screenshot (660)](https://github.com/user-attachments/assets/698de597-26ae-4f04-81ec-40835ebd068e)
 
 ## Evaluation Metrics
 
-![Screenshot (659)](https://github.com/user-attachments/assets/8a4dfcf9-f7b4-4194-8e0a-863aeab02917)
-![Screenshot (661)](https://github.com/user-attachments/assets/0783c71b-8308-4c03-978c-eecd474bb890)
+
 
 ## Interpretation
 
