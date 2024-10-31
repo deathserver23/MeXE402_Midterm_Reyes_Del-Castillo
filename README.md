@@ -23,9 +23,9 @@ The Adult Census Income dataset, sourced from the UCI Machine Learning Repositor
 
 # 🔭Project Objectives
 Objective for Linear Regression
-  - Performing Data Cleaning to ensure the dataset consistency, handling misssing values and delete unnecessary variables
-  - To models the relationships between independent and dependent variable.
+  - Performing Data Cleaning to ensure the dataset consistency, handling misssing values and delete unnecessary variables.
   - To choose the suitable the independent variable and it's dependent variable.
+  - To model the relationships between independent and dependent variable.
   - To test the accuracy of the model in prediction of values.
 
 Objectives for Logistic Regression
@@ -54,10 +54,10 @@ And there's 1 independent variable : Temperature
 
 We change the summary and precipitation types into numerical values as a part of data cleaning.
 
-| Precip Type   | Numerical Value |
-|---------------|-----------------|
-| Snow          | 1               |
-| Rain          | 2               |
+| Precipitation Type   | Numerical Value |
+|----------------------|-----------------|
+| Snow                 | 1               |
+| Rain                 | 2               |
 
 - there's 2 categories : snow and rain
 
@@ -122,7 +122,7 @@ We change the summary and precipitation types into numerical values as a part of
 - Adjusted R-squared (Adjusted R²) is an alternative for R-squared score that also considers how many features are in the model. R-squared (R²) measures how well the model's predictions match the real data, but it can go up just by adding more features, even if they don’t actually help. Adjusted R² fixes this by only increasing if new features improve the model's accuracy. This makes it a better way to compare models that use different numbers of features.
 
 ## Interpretation
-
+- The dataset contains 96,453 rows and 9 columns, including variables like "Apparent Temperature (C)," "Humidity," "Wind Speed (km/h)," "Visibility (km)," and "Pressure (millibars)," among others, with the target variable likely being "Temperature (C)" as the model’s goal appears to be predicting temperature.Each coefficient in a linear regression model will show how strongly it influences the predicted temperature.The magnitude of each coefficient reflects the feature’s importance in predicting temperature, with larger values indicating a more substantial effect.The R-squared and Adjusted R-squared values will show how well the model predicts temperature based on the chosen coefficient. Higher R² values mean the model explains more of the temperature differences, which indicates it has strong predictive power, while lower values suggest it doesn’t fit the data well.
 
 ## Data Preproccessing 
   
