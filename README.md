@@ -55,8 +55,43 @@ We change the summary and precipitation types into numerical values as a part of
 
 | Precip Type   | Numerical Value |
 |---------------|-----------------|
-| Rain          | 1               |
-| Snow          | 2               |
+| Snow          | 1               |
+| Rain          | 2               |
+
+- there's 2 categories : snow and rain
+
+| Precip Type                            | Numerical Value |
+|----------------------------------------|-----------------|
+| Partly Cloudy                          | 10               |
+| Mostly Cloudy                          | 11               |
+| Overcast                               | 12               |
+| Foggy                                  | 13               |
+| Breezy and Mostly Cloudy               | 14               |
+| Clear                                  | 15               |
+| Breezy and Partly Cloudy               | 16               |
+| Breezy and Overcast                    | 17               |
+| Humid and Mostly Cloudy                | 18               |
+| Humid and Partly Cloudy                | 19               |
+| Windy and Foggy                        | 20               |
+| Windy and Overcast                     | 21               |
+| Breezy and Foggy                       | 22               |
+| Windy and Partly Cloudy                | 23               |
+| Breezy                                 | 24               |
+| Dry and Partly Cloudy                  | 25               |
+| Windy and Mostly Cloudy                | 26               |
+| Dangerously Windy and Partly Cloudy    | 27               |
+| Dry                                    | 28               |
+| Windy                                  | 29               |
+| Humid and Overcast                     | 30               |
+| Light Rain                             | 31               |
+| Drizzle                                | 32               |
+| Clear                                  | 33               |
+| Windy and Dry                          | 34               |
+| Dry and Mostly Cloudy                  | 35               |
+| Breezy and Dry                         | 36               |
+| Rain                                   | 37               |
+
+- there's 27 categories
 
 ## Model Implementation
 
