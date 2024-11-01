@@ -40,7 +40,7 @@ Objectives for Logistic Regression
 
 ![Screenshot (664)](https://github.com/user-attachments/assets/894cda31-eee7-4971-908d-96cf683f7d8e)
 
-There are 9 dependent variables in the dataset:
+There are 8 dependent variables in the dataset:
  - Summary
  - Precipitation Type
  - Apparent Temperature
