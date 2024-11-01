@@ -99,9 +99,8 @@ We change the summary and precipitation types into numerical values as a part of
 - dataset = pd.read_csv('the name of the file')
 - dataset.info - to get the summary of the dataset, if there's a missing values or null
 
-![Screenshot (668)](https://github.com/user-attachments/assets/ca25f2d0-3657-42a6-babb-631d32c523cc)
-
-![Screenshot (669)](https://github.com/user-attachments/assets/77c137d8-1186-43d2-864a-8433864367f6)
+![Screenshot (677)](https://github.com/user-attachments/assets/476a8ab4-c899-4397-a757-b1d139ad6e93)
+![Screenshot (678)](https://github.com/user-attachments/assets/cd49b9c9-8d3f-44da-82f9-b07a4bfe18da)
 
 - The train_test_split function from scikit-learn's model_selection module is a tool for dividing datasets into training and testing subsets.In the dataset,x and y are split into training and testing sets. The test_size parameter specifies that 20% of the data should be used for the test set and the 80% is for training set, while the random_state parameter ensures reproducibility of the results.
 
@@ -113,9 +112,8 @@ We change the summary and precipitation types into numerical values as a part of
 
 ## Evaluation Metrics
 
-![Screenshot (671)](https://github.com/user-attachments/assets/e45b324f-9526-44f8-9a7e-653986d9cd5e)
-
-![Screenshot (672)](https://github.com/user-attachments/assets/fac709a3-51e1-4c73-b1af-671550916156)
+![Screenshot (675)](https://github.com/user-attachments/assets/2ecea22c-e3a2-41a1-85f5-c281e98c57fc)
+![Screenshot (676)](https://github.com/user-attachments/assets/1176b73c-24b6-4199-83fd-ef8a0f7ee62c)
 
 - The code calculates the R-squared (R²) score, which shows how well the model's predictions match the actual results. After importing r2_score from sklearn.metrics, the line r2 = r2_score(y_test, y_pred) compares the real values (y_test) with the model’s predicted values (y_pred). The R² score ranges from 0 to 1, where a score closer to 1 means the model is doing a good job predicting the results, and a score closer to 0 means the predictions are less accurate.In our model, the accuracy score is 0.99,which is implies that the model is great.
 - Adjusted R-squared (Adjusted R²) is an alternative for R-squared score that also considers how many features are in the model. R-squared (R²) measures how well the model's predictions match the real data, but it can go up just by adding more features, even if they don’t actually help. Adjusted R² fixes this by only increasing if new features improve the model's accuracy. This makes it a better way to compare models that use different numbers of features.
